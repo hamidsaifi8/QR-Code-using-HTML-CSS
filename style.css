@@ -54,3 +54,26 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+@media (max-width: 460px) {
+    .container {
+        width: 90%;
+        max-width: 280px; 
+        top: auto; 
+        padding: 20px 15px;
+        margin-top: 30%;
+    }
+
+    .header {
+        font-size: 1.1rem; 
+    }
+
+    .para {
+        font-size: 0.9rem; 
+        margin: 5% 8% 10%; 
+    }
+
+    .attribution {
+        position: static; 
+        margin-top: 20px;
+    }
+}
